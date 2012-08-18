@@ -12,8 +12,8 @@ Just copy the *iPadRootViewController* to your project. This class has three pro
 
 *streamViewController* is a view between the left and the right view controller. The view can be dragged to the right to see the entire menu. When it's on the left side, only the menu icons will be visible.
 
-[Stream closed](hhttp://d.pr/i/NAat)
-[Stream opened](http://d.pr/i/mL0)
+[Stream closed](http://s11.postimage.org/s2akaj2tf/i_OS_Simulator_Screen_shot_Aug_18_2012_4_42_34_P.png)
+[Stream opened](http://s11.postimage.org/s2akaj2tf/i_OS_Simulator_Screen_shot_Aug_18_2012_4_42_34_P.png)
 
 The panels sizes can be controlled changing the values in *iPadRootViewController.m*:
 
