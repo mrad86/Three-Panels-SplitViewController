@@ -13,8 +13,12 @@
 		492BF0B615DFB2C7004E7A7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 492BF0B415DFB2C7004E7A7F /* InfoPlist.strings */; };
 		492BF0B815DFB2C7004E7A7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 492BF0B715DFB2C7004E7A7F /* main.m */; };
 		492BF0BC15DFB2C7004E7A7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 492BF0BB15DFB2C7004E7A7F /* AppDelegate.m */; };
-		492BF0BF15DFB2C7004E7A7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492BF0BE15DFB2C7004E7A7F /* ViewController.m */; };
-		492BF0C215DFB2C7004E7A7F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492BF0C015DFB2C7004E7A7F /* ViewController.xib */; };
+		492BF0BF15DFB2C7004E7A7F /* iPadRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492BF0BE15DFB2C7004E7A7F /* iPadRootViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		492BF0C215DFB2C7004E7A7F /* iPadRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492BF0C015DFB2C7004E7A7F /* iPadRootViewController.xib */; };
+		492BF0CC15DFB687004E7A7F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492BF0CA15DFB687004E7A7F /* TableViewController.m */; };
+		492BF0CD15DFB687004E7A7F /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492BF0CB15DFB687004E7A7F /* TableViewController.xib */; };
+		492BF0D115DFCAAB004E7A7F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492BF0CF15DFCAAB004E7A7F /* MainViewController.m */; };
+		492BF0D215DFCAAB004E7A7F /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492BF0D015DFCAAB004E7A7F /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +32,15 @@
 		492BF0B915DFB2C7004E7A7F /* ThreePanelsRootViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThreePanelsRootViewController-Prefix.pch"; sourceTree = "<group>"; };
 		492BF0BA15DFB2C7004E7A7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		492BF0BB15DFB2C7004E7A7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		492BF0BD15DFB2C7004E7A7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		492BF0BE15DFB2C7004E7A7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		492BF0C115DFB2C7004E7A7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		492BF0BD15DFB2C7004E7A7F /* iPadRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPadRootViewController.h; sourceTree = "<group>"; };
+		492BF0BE15DFB2C7004E7A7F /* iPadRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPadRootViewController.m; sourceTree = "<group>"; };
+		492BF0C115DFB2C7004E7A7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iPadRootViewController.xib; sourceTree = "<group>"; };
+		492BF0C915DFB687004E7A7F /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ExampleViewControllers/TableViewController.h; sourceTree = "<group>"; };
+		492BF0CA15DFB687004E7A7F /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ExampleViewControllers/TableViewController.m; sourceTree = "<group>"; };
+		492BF0CB15DFB687004E7A7F /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableViewController.xib; path = ExampleViewControllers/TableViewController.xib; sourceTree = "<group>"; };
+		492BF0CE15DFCAAB004E7A7F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ExampleViewControllers/MainViewController.h; sourceTree = "<group>"; };
+		492BF0CF15DFCAAB004E7A7F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ExampleViewControllers/MainViewController.m; sourceTree = "<group>"; };
+		492BF0D015DFCAAB004E7A7F /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ExampleViewControllers/MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +87,12 @@
 		492BF0B115DFB2C7004E7A7F /* ThreePanelsRootViewController */ = {
 			isa = PBXGroup;
 			children = (
+				492BF0C815DFB65D004E7A7F /* Example ViewControllers */,
 				492BF0BA15DFB2C7004E7A7F /* AppDelegate.h */,
 				492BF0BB15DFB2C7004E7A7F /* AppDelegate.m */,
-				492BF0BD15DFB2C7004E7A7F /* ViewController.h */,
-				492BF0BE15DFB2C7004E7A7F /* ViewController.m */,
-				492BF0C015DFB2C7004E7A7F /* ViewController.xib */,
+				492BF0BD15DFB2C7004E7A7F /* iPadRootViewController.h */,
+				492BF0BE15DFB2C7004E7A7F /* iPadRootViewController.m */,
+				492BF0C015DFB2C7004E7A7F /* iPadRootViewController.xib */,
 				492BF0B215DFB2C7004E7A7F /* Supporting Files */,
 			);
 			path = ThreePanelsRootViewController;
@@ -96,6 +107,19 @@
 				492BF0B915DFB2C7004E7A7F /* ThreePanelsRootViewController-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		492BF0C815DFB65D004E7A7F /* Example ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				492BF0C915DFB687004E7A7F /* TableViewController.h */,
+				492BF0CA15DFB687004E7A7F /* TableViewController.m */,
+				492BF0CB15DFB687004E7A7F /* TableViewController.xib */,
+				492BF0CE15DFCAAB004E7A7F /* MainViewController.h */,
+				492BF0CF15DFCAAB004E7A7F /* MainViewController.m */,
+				492BF0D015DFCAAB004E7A7F /* MainViewController.xib */,
+			);
+			name = "Example ViewControllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +174,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				492BF0B615DFB2C7004E7A7F /* InfoPlist.strings in Resources */,
-				492BF0C215DFB2C7004E7A7F /* ViewController.xib in Resources */,
+				492BF0C215DFB2C7004E7A7F /* iPadRootViewController.xib in Resources */,
+				492BF0CD15DFB687004E7A7F /* TableViewController.xib in Resources */,
+				492BF0D215DFCAAB004E7A7F /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +189,9 @@
 			files = (
 				492BF0B815DFB2C7004E7A7F /* main.m in Sources */,
 				492BF0BC15DFB2C7004E7A7F /* AppDelegate.m in Sources */,
-				492BF0BF15DFB2C7004E7A7F /* ViewController.m in Sources */,
+				492BF0BF15DFB2C7004E7A7F /* iPadRootViewController.m in Sources */,
+				492BF0CC15DFB687004E7A7F /* TableViewController.m in Sources */,
+				492BF0D115DFCAAB004E7A7F /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,12 +206,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		492BF0C015DFB2C7004E7A7F /* ViewController.xib */ = {
+		492BF0C015DFB2C7004E7A7F /* iPadRootViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				492BF0C115DFB2C7004E7A7F /* en */,
 			);
-			name = ViewController.xib;
+			name = iPadRootViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

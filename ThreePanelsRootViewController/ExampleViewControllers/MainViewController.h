@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  ThreePanelsRootViewController
 //
 //  Created by Miguel on 8/18/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MainViewController : UIViewController
 
 @end
